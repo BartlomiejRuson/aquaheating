@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        firstSlide:"url(/images/1.jpg)",
+        secondSlide:"url(/images/2.jpg)",
+        thirdSlide:"url(/images/3.jpg)"
+      },
+      colors:{
+        "aquaBlue":"#008DD2"
+      }
+    },
   },
   plugins: [],
 }
