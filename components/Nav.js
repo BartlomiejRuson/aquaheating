@@ -7,7 +7,10 @@ import phoneLogo from "../images/AH_logo.jpg";
 function Nav() {
   const myRef = useRef();
   const handleClick = () =>{
-    myRef.current.classList.toggle('hidden');
+
+      myRef.current.classList.toggle('hidden');
+
+
   }
 
 
