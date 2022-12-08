@@ -1,6 +1,6 @@
 import React,{useRef} from "react";
 import Link from "next/link";
-import { AiOutlineDown } from "react-icons/Ai";
+import { AiOutlineDown } from "react-icons/ai";
 import Image from "next/image";
 import logoImage from "../images/logo.jpg";
 import phoneLogo from "../images/AH_logo.jpg";
