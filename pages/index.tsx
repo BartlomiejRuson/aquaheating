@@ -11,8 +11,8 @@ const Home: NextPage = () => {
   return (
     <div className="w-screen h-full">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Aqua Heating</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
     <Nav></Nav>
     <Slider></Slider>
