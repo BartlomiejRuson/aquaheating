@@ -28,8 +28,8 @@ function Slider() {
           key={index}
         >
           <div className={index===currentIndex?'sliderTextActive':'sliderTextUnactive'}>
-            <h2 className="bg-black text-white p-5 mb-5 font-semibold text-3xl overflow-hidden">PRODUKT XYZ</h2>
-            <Link href="/Products" className="text-center bg-white font-semibold p-3 hover:text-aquaBlue  transition-all text-xl ">SPRAWDŹ</Link>
+            <h2 className="bg-black text-white p-5 mb-5 font-semibold text-lg md:text-3xl overflow-hidden">PRODUKT XYZ</h2>
+            <Link href="/Products" className="text-center bg-white font-semibold p-3 hover:text-aquaBlue  transition-all text-sm md:text-xl ">SPRAWDŹ</Link>
           </div>
 
           {index === currentIndex && <Image className="sliderImg" alt="ss" src={slide}></Image>}

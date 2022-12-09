@@ -22,7 +22,7 @@ function Contact() {
           <form>
             <div className="flex gap-5 flex-col justify-around items-center">
               <input placeholder="email" type="email" className="w-full border border-gray-500 px-4 py-2 focus:outline-none focus:border-aquaBlue"/>
-              <textarea placeholder="Wiadomość" className="w-full border border-gray-500 px-4 py-2 focus:outline-none focus:border-aquaBlue" cols={10} rows={5}></textarea>
+              <textarea className="w-full border border-gray-500 px-4 py-2 focus:outline-none focus:border-aquaBlue" cols={10} rows={5}></textarea>
               <input type="submit" value="Wyślij" className="cursor-pointer focus:outline-none bg-aquaBlue px-4 py-2 text-white w-fit"/>
             </div>
           </form>
