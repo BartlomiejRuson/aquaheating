@@ -44,7 +44,7 @@ function Nav() {
         </Link>
         <div className="   cursor-pointer group/dropdown text-center">
           <span className="hover:text-aquaBlue relative transition-all block ">
-            PRODUKTY{" "}
+            <Link href='/Products'>PRODUKTY</Link> {" "}
             <span className="dropdownArrow mx-auto">
               <AiOutlineDown className="m-auto" />
             </span>

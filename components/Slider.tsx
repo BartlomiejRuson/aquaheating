@@ -19,7 +19,7 @@ function Slider() {
   return (
     <div className="w-full flex justify-center items-center relative">
       <FaArrowAltCircleLeft
-        className="leftArrow z-10 absolute hover:text-aquaBlue transition-all"
+        className="leftArrow z-10 absolute md:hover:text-aquaBlue transition-all"
         onClick={prevSlide}
       />
       {slides.map((slide, index) => (
@@ -36,7 +36,7 @@ function Slider() {
         </div>
       ))}
       <FaArrowAltCircleRight
-        className="rightArrow z-10 absolute hover:text-aquaBlue transition-all"
+        className="rightArrow z-10 absolute md:hover:text-aquaBlue transition-all"
         onClick={nextSlide}
       />
     </div>
