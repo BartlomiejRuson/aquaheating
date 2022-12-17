@@ -5,7 +5,7 @@ import Link from "next/link";
 const image0 = require("../images/slider2.jpg");
 const image1 = require("../images/slider3.jpg");
 const image2 = require("../images/Baner_3A.jpg");
-const image3 = require("../images/Baner_4A.jpg");
+const image3 = require("../images/Baner_4A.JPG");
 
 function Slider() {
   const slides = [image1, image0,image2,image3];
