@@ -17,7 +17,7 @@ function Contact() {
         </div>
 
         <div className="">
-          <div className="p-5 space-y-5 shadow-xl">
+          <div className="p-5 space-y-5 ">
             <h4 className="text-center text-3xl">Formularz kontaktowy</h4>
           <form>
             <div className="flex gap-5 flex-col justify-around items-center">

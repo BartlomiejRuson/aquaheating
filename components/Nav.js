@@ -50,33 +50,33 @@ function Nav() {
             </span>
           </span>
 
-          <div className="hidden absolute dropDownMenu bg-white z-50 top-10 h-30 group-hover/dropdown:block w-4/5">
-            <ul className="grid grid-cols-2 pb-3 text-center">
+          <div className="hidden absolute dropDownMenu bg-white z-50 top-10 h-30 group-hover/dropdown:block w-2/5">
+            <ul className="grid grid-cols-1 pb-3 text-center">
               <li className="py-2 px-10 min-w-fit  text-center">
-                <a
-                  href="/Products"
+                <Link
+                  href="/kategorie/Armatura_sanitarna"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  Kategoria 1
-                </a>{" "}
+                  ARMATURA SANITARNA
+                </Link>{" "}
               </li>
               <li className="py-2 px-10 min-w-fit text-center">
-                <a
-                  href="/Products"
+                <Link
+                  href="/kategorie/Armatura_grzewcza"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  Kategoria 2
-                </a>{" "}
+                  ARMATURA GRZEWCZA
+                </Link>{" "}
               </li>
               <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
+                <Link
+                  href="/kategorie/Armatura_hydrauliczna"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  Kategoria 3
-                </a>{" "}
+                  ARMATURA HYDRAULICZNA
+                </Link>{" "}
               </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
+              {/* <li className="py-2 px-10 min-w-fit   text-center">
                 <a
                   href="/Products"
                   className="hover:text-aquaBlue transition-all"
@@ -115,7 +115,7 @@ function Nav() {
                 >
                   Kategoria 8
                 </a>{" "}
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
