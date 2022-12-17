@@ -16,7 +16,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <div className="p-5 space-y-5 ">
             <h4 className="text-center text-3xl">Formularz kontaktowy</h4>
           <form>
