@@ -2,7 +2,6 @@ import React,{useRef} from "react";
 import Link from "next/link";
 import { AiOutlineDown } from "react-icons/ai";
 import Image from "next/image";
-import logoImage from "../images/logo.jpg";
 import phoneLogo from "../images/AH_logo.jpg";
 function Nav() {
   const myRef = useRef();
@@ -19,15 +18,8 @@ function Nav() {
 
   return (
     <nav className="min-h-fit font-semibold p-10 sticky top-0 left-0 bg-white z-20 text-base shadow-lg">
-      <Link href="/" className="absolute logo left-5 hidden lg:block">
-        <Image
-          src={logoImage}
-          alt="Aqua Heating logo"
-          width={210}
-          height={120}
-        ></Image>
-      </Link>
-      <Link href="/" className="absolute logo left-6 lg:hidden mt-[10px]">
+
+      <Link href="/" className="absolute logo left-2 md:left-6  mt-[10px]">
         <Image
           src={phoneLogo}
           alt="Aqua Heating logo"
@@ -35,7 +27,7 @@ function Nav() {
           height={100}
         ></Image>
       </Link>
-      <div className="hidden md:flex max-w-xl mx-auto justify-around pl-3 relative">
+      <div className="hidden md:flex max-w-2xl mx-auto justify-around pl-3 relative">
         <Link className="hover:text-aquaBlue transition-all" href="/">
           STRONA GŁÓWNA
         </Link>
@@ -76,51 +68,14 @@ function Nav() {
                   ARMATURA HYDRAULICZNA
                 </Link>{" "}
               </li>
-              {/* <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
-                  className="hover:text-aquaBlue transition-all"
-                >
-                  Kategoria 4
-                </a>{" "}
-              </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
-                  className="hover:text-aquaBlue transition-all"
-                >
-                  Kategoria 5
-                </a>{" "}
-              </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
-                  className="hover:text-aquaBlue transition-all"
-                >
-                  Kategoria 6
-                </a>{" "}
-              </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
-                  className="hover:text-aquaBlue transition-all"
-                >
-                  Kategoria 7
-                </a>{" "}
-              </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
-                <a
-                  href="/Products"
-                  className="hover:text-aquaBlue transition-all"
-                >
-                  Kategoria 8
-                </a>{" "}
-              </li> */}
             </ul>
           </div>
         </div>
         <Link className="hover:text-aquaBlue transition-all" href="/Gallery">
           GALERIA
+        </Link>
+        <Link className="hover:text-aquaBlue transition-all" href="/Do_Pobrania">
+          DO POBRANIA
         </Link>
         <Link className="hover:text-aquaBlue transition-all" href="/Contact">
           KONTAKT
@@ -138,6 +93,7 @@ function Nav() {
           <li  className="p-2"><Link  className="p-2" href="/About">O NAS</Link></li>
           <li  className="p-2"><Link  className="p-2" href="/Products">PRODUKTY</Link></li>
           <li  className="p-2"><Link  className="p-2" href="/Gallery">GALERIA</Link></li>
+          <li  className="p-2"><Link  className="p-2" href="/Do_Pobrania">DO POBRANIA</Link></li>
           <li  className="p-2"><Link  className="p-2" href="/Contact">KONTAKT</Link></li>
         </ul>
       </div>

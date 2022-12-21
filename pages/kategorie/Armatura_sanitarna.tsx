@@ -9,16 +9,16 @@ function Armatura_sanitarna() {
   return (
     <div>
         <Nav/>
-        <div className="flex justify-around items-center text-center ">
-            <div className='w-2/5 border rounded-sm my-10 pb-10'>
+        <div className="flex flex-col md:flex-row justify-around items-center text-center ">
+            <div className='md:w-2/5 border rounded-sm my-10 pb-10'>
                 <h2 className="text-lg font-semibold">ODPŁYWY</h2>
-                <Image src={image1} alt='odplywy' />
+                <Image priority src={image1} alt='odplywy' />
                 <Link href="/Armatura_sanitarna/Odplywy" className="text-center aboutButton bg-aquaBlue text-white font-semibold p-3 mx-auto transition-all text-xl">SPRAWDŹ</Link>
 
             </div>
-            <div className='w-2/5 border rounded-sm my-10 pb-10'>
+            <div className='md:w-2/5 border rounded-sm my-10 pb-10'>
                 <h2 className="text-lg font-semibold">ZLEWY</h2>
-                <Image src={image2} alt='zlewy' />
+                <Image priority src={image2} alt='zlewy' />
                 <Link href="/Armatura_sanitarna/Zlewy" className="text-center aboutButton bg-aquaBlue text-white font-semibold p-3 mx-auto transition-all text-xl">SPRAWDŹ</Link>
             </div>
         </div>

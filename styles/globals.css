@@ -24,7 +24,7 @@ nav{
     left: 30px;
     font-size: 3rem;
     cursor: pointer;
-    /* transform: translateX(-50%); */
+     transform: translatey(-50%); 
 }
 .rightArrow{
   color: white;
@@ -32,7 +32,7 @@ nav{
     right: 30px;
     font-size: 3rem;
     cursor: pointer;
-    /* transform: translateX(50%); */
+     transform: translatey(-50%); 
 }
 .slide {
     opacity: 0;

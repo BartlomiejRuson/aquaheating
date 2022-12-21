@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Cookies from '../components/Cookies'
 import Footer from '../components/Footer'
 import MiniSlider from '../components/MiniSlider'
 import Nav from '../components/Nav'
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
     <Slider></Slider>
     <MiniSlider></MiniSlider>
     <Footer></Footer>
+    <Cookies/>
     </div>
   )
 }
