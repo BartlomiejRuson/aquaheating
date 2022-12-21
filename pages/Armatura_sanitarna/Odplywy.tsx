@@ -355,7 +355,7 @@ const odplywy = [
     prysznicowy / ścienny
     WZÓR - 2w1 - pod płytkę
     `,
-    mainUrl:"/ODPLYWY/W04_N/W04N_0.jpg",
+    mainUrl:"/ODPLYWY/W04/W04N_0.jpg",
     images:["W04N_0.jpg","W04N_1.jpg","W04N_1B.jpg","W04N_2.jpg","W04N_4.jpg","W04N_6.jpg","W04N_7.jpg","W04N_9.jpg","W04N_10.jpg","W04N_Wym1.jpg"],
     opis1: `Dwustronny ruszt`,
     opis2:`Koryto odpływowe oraz ruszt (maskownica) wykonane ze stali nierdzewnej (AISI 304)
@@ -375,7 +375,7 @@ const odplywy = [
     WZÓR - 2w1 - pod płytkę
     CZARNY Matowy
     `,
-    mainUrl:"/ODPLYWY/W04BK_N/W04BK_N_0.jpg",
+    mainUrl:"/ODPLYWY/W04BK/W04BK_N_0.jpg",
     images:["W04BK_N_0.jpg","W04BK_N_1.jpg","W04BK_N_1B.jpg","W04BK_N_2.jpg","W04BK_N_3.jpg","W04BK_N_4.jpg","W04BK_N_5.jpg","W04BK_N_6.jpg","W04BK_N_7.jpg","W04BK_N_8.jpg","W04BK_N_9.jpg","W04BK_N_Wym1.jpg"],
     opis1: `Dwustronny ruszt`,
     opis2:`Koryto odpływowe oraz ruszt (maskownica) wykonane ze stali nierdzewnej (AISI 304)
@@ -395,7 +395,7 @@ const odplywy = [
     WZÓR - 2w1 - pod płytkę
     ZŁOTY Matowy
     `,
-    mainUrl:"/ODPLYWY/W04GL_N/W04GL_0.jpg",
+    mainUrl:"/ODPLYWY/W04GL/W04GL_0.jpg",
     images:["W04GL_0.jpg","W04GL_1.jpg","W04GL_2.jpg","W04GL_3.jpg","W04GL_4.jpg","W04GL_5.jpg","W04GL_6.jpg","W04GL_7.jpg","W04GL_8.jpg","W04GL_N_Wym1.jpg"],
     opis1: `Dwustronny ruszt`,
     opis2:`Koryto odpływowe oraz ruszt (maskownica) wykonane ze stali nierdzewnej (AISI 304)

@@ -661,6 +661,7 @@ function Odplyw() {
         </Link>
       </div>
       {obecnyOdplyw.map((item) => {
+        console.log(obecnyOdplyw)
         if (item.Symbol == productId){
           
           return (
