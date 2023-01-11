@@ -16,7 +16,7 @@ function Footer() {
         <div>
         <p>www.aquaheating .pl</p>
           <p>biuro @aquaheating</p>
-          <p>+48 xxx xxx xxx</p>
+          <a href="#">+48 xxx xxx xxx</a>
         </div>
       </div>
     </footer>

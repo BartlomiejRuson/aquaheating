@@ -31,53 +31,63 @@ function Nav() {
         <Link className="hover:text-aquaBlue transition-all" href="/">
           STRONA GŁÓWNA
         </Link>
-        <Link className="hover:text-aquaBlue transition-all" href="/About">
+        <Link className="hover:text-aquaBlue transition-all" href="/O_nas">
           O NAS
         </Link>
         <div className="   cursor-pointer group/dropdown text-center">
           <span className="hover:text-aquaBlue relative transition-all block ">
-            <Link href='/Products'>PRODUKTY</Link> {" "}
+            <Link href='/Produkty'>PRODUKTY</Link> {" "}
             <span className="dropdownArrow mx-auto">
               <AiOutlineDown className="m-auto" />
             </span>
           </span>
 
           <div className="hidden absolute dropDownMenu bg-white z-50 top-10 h-30 group-hover/dropdown:block w-2/5">
-            <ul className="grid grid-cols-1 pb-3 text-center">
-              <li className="py-2 px-10 min-w-fit  text-center">
+            <ul className="grid grid-cols-1 pb-3 text-left">
+            <li className="py-2 px-10 min-w-fit  text-left">
                 <Link
-                  href="/kategorie/Armatura_sanitarna"
+                  href="/Armatura_sanitarna/Odplywy"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  ARMATURA SANITARNA
-                </Link>{" "}
+                  ODPLYWY
+                </Link>
               </li>
-              <li className="py-2 px-10 min-w-fit text-center">
+              <li className="py-2 px-10 min-w-fit  text-left">
                 <Link
-                  href="/kategorie/Armatura_grzewcza"
+                  href="/Armatura_sanitarna/Zlewy"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  ARMATURA GRZEWCZA
-                </Link>{" "}
+                  ZLEWY / KOMORY
+                </Link>
               </li>
-              <li className="py-2 px-10 min-w-fit   text-center">
+
+              <li className="py-2 px-10 min-w-fit text-left">
                 <Link
-                  href="/kategorie/Armatura_hydrauliczna"
+                  href="/Technika_grzewcza_sanitarna"
                   className="hover:text-aquaBlue transition-all"
                 >
-                  ARMATURA HYDRAULICZNA
+                  TECHNIKA GRZEWCZA SANITARNA
                 </Link>{" "}
               </li>
+              <li className="py-2 px-10 min-w-fit text-left">
+                <Link
+                  href="/Akcesoria"
+                  className="hover:text-aquaBlue transition-all"
+                >
+                  AKCESORIA
+                </Link>{" "}
+              </li>
+              
             </ul>
           </div>
         </div>
-        <Link className="hover:text-aquaBlue transition-all" href="/Gallery">
+        <Link className="hover:text-aquaBlue transition-all" href="/Galeria">
           GALERIA
         </Link>
         <Link className="hover:text-aquaBlue transition-all" href="/Do_Pobrania">
           DO POBRANIA
         </Link>
-        <Link className="hover:text-aquaBlue transition-all" href="/Contact">
+        <Link className="hover:text-aquaBlue transition-all" href="/Kontakt">
           KONTAKT
         </Link>
       </div>
@@ -90,11 +100,11 @@ function Nav() {
       <div className="hidden md:hidden" ref={myRef}>
         <ul className="text-center">
           <li  className="p-2"><Link  className="p-2" href="/">STRONA GŁOWNA</Link></li>
-          <li  className="p-2"><Link  className="p-2" href="/About">O NAS</Link></li>
-          <li  className="p-2"><Link  className="p-2" href="/Products">PRODUKTY</Link></li>
-          <li  className="p-2"><Link  className="p-2" href="/Gallery">GALERIA</Link></li>
+          <li  className="p-2"><Link  className="p-2" href="/O_nas">O NAS</Link></li>
+          <li  className="p-2"><Link  className="p-2" href="/Produkty">PRODUKTY</Link></li>
+          <li  className="p-2"><Link  className="p-2" href="/Galeria">GALERIA</Link></li>
           <li  className="p-2"><Link  className="p-2" href="/Do_Pobrania">DO POBRANIA</Link></li>
-          <li  className="p-2"><Link  className="p-2" href="/Contact">KONTAKT</Link></li>
+          <li  className="p-2"><Link  className="p-2" href="/Kontakt">KONTAKT</Link></li>
         </ul>
       </div>
     </nav>

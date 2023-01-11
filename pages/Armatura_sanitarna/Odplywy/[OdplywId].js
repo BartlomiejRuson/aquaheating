@@ -630,9 +630,6 @@ function Odplyw() {
   const productId = router.query.OdplywId;
   const changeImage = (e,string) => {
     setMainImgUrl(string);
-    // if(string==mainImgUrl){
-    //   imgRef.current.src=mainImgUrl;
-    // }
     
     
   };
@@ -654,7 +651,7 @@ function Odplyw() {
       <div className="w-52 ">
         {" "}
         <Link
-          href="/Armatura_sanitarna/Odplywy"
+          href="/Armatura_sanitarna/Lista_odplywow"
           className="p-3 font-semibold flex items-center justify-center"
         >
           <AiOutlineLeft /> POZOSTAŁE ODPŁYWY

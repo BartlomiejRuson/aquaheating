@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Image from "next/image";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import Link from "next/link";
@@ -19,6 +19,11 @@ function Slider() {
   const nextSlide = () => {
     setCurrentIndex(currentIndex === slidesLength - 1 ? 0 : currentIndex + 1);
   };
+  useEffect(() => {
+    setTimeout(() => {
+      setCurrentIndex(currentIndex === slidesLength - 1 ? 0 : currentIndex + 1);
+    }, 6000);
+  });
   return (
     <div className="w-full flex justify-center items-center relative select-none">
       <FaArrowAltCircleLeft

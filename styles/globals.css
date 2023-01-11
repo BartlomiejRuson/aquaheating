@@ -83,8 +83,13 @@ nav{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 48%;
-    height: 48%;
+    width: 40%;
+    
+  }
+  @media screen and (max-width: 992px) {
+    .miniSliderText {
+      width: 55%;
+    }
   }
 .dropDownMenu{
   transform: translateX(-30%);
