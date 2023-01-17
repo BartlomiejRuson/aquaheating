@@ -71,7 +71,7 @@ function Nav() {
               </li>
               <li className="py-2 px-10 min-w-fit text-left">
                 <Link
-                  href="/Akcesoria"
+                  href="/Lista_Akcesoriow"
                   className="hover:text-aquaBlue transition-all"
                 >
                   AKCESORIA

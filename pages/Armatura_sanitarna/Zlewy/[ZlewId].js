@@ -155,6 +155,7 @@ function Zlew() {
           return (
             <div key={item.Symbol} className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex flex-col justify-center items-center">
+                <div className="productImageContainer">
                 <img
                   ref={imgRef}
                   className="p-3"
@@ -164,10 +165,13 @@ function Zlew() {
                   alt={item.Symbol}
                   priority
                 />
+                </div>
+
                 <div className="grid grid-rows-2 grid-cols-5 gap-2">
                   {item.images.map((img, index) => {
                     
                     return (
+                      <div className="miniProductImageContainer">
                       <Image
                         className="border cursor-pointer"
                         key={index}
@@ -180,6 +184,8 @@ function Zlew() {
                         }}
                         
                       />
+                      </div>
+
                     );
                   })}
                 </div>
@@ -187,14 +193,15 @@ function Zlew() {
               <div className="flex font-semibold text-lg justify-center items-center">
                 <div>
                   <h1 className=" text-3xl py-5">- {item.nazwa}</h1>
-                  <p>- {item.opis1}</p>
-                  <p>- {item.opis2}</p>
-                  <p>- {item.opis3}</p>
-                  <p>- {item.opis4}</p>
-                  <p>- {item?.opis5}</p>
-                  <p>- {item?.opis6}</p>
-                  <p>- {item?.opis7}</p>
-                  <p>- {item?.opis8}</p>
+
+                  {item.opis1 ? <p>{item.opis1}</p> : null}
+                  {item.opis2 ? <p>{item.opis2}</p> : null}
+                  {item.opis3 ? <p>{item.opis3}</p> : null}
+                  {item.opis4 ? <p>{item.opis4}</p> : null}
+                  {item.opis5 ? <p>{item.opis5}</p> : null}
+                  {item.opis6 ? <p>{item.opis6}</p> : null}
+                  {item.opis7 ? <p>{item.opis7}</p> : null}
+                  {item.opis8 ? <p>{item.opis8}</p> : null}
                   <p>- Symbol: {item.Symbol}</p>
                 </div>
               </div>

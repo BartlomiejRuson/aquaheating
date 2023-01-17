@@ -6,8 +6,10 @@ import Link from "next/link";
 
 const zlewy = [
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA - 55 x 45 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `SATYNOWA MATOWA - 55 x 45 x 21 cm`,
     Symbol: `K9145TB`,
     mainUrl: `/ZLEWY/K9145TB/K9145TB_1.jpg`,
     images:[`K9145TB_1.jpg`,`K9145TB_2.jpg`,`K9145TB_3.jpg`,`K9145TB_4.jpg`,`K9145TB_5.jpg`,`K9145TB_6.jpg`,`K9145TB_7.jpg`,`K9145TB_8.jpg`,`K9145TB_9.jpg`],
@@ -22,8 +24,10 @@ const zlewy = [
     EAN:`5904806581754`
   },
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA CHROM POŁYSK - 55 x 45 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `CHROM POŁYSK - 55 x 45 x 21 cm`,  
     Symbol: `K9145TP`,
     mainUrl: `/ZLEWY/K9145TP/K9145TP_1.jpg`,
     images:[`K9145TP_1.jpg`,`K9145TP_2.jpg`,`K9145TP_3.jpg`,`K9145TP_4.jpg`,`K9145TP_5.jpg`,`K9145TP_6.jpg`,`K9145TP_7.jpg`,`K9145TP_8.jpg`,`K9145TP_9.jpg`],
@@ -39,8 +43,10 @@ const zlewy = [
     EAN:`5904806581761`
   },
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA Z PÓŁKĄ - 55 x 50 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `SATYNOWA MATOWA Z PÓŁKĄ - 55 x 50 x 21 cm`,
     Symbol: `K9146TB`,
     mainUrl: `/ZLEWY/K9146TB/K9146TB_1.jpg`,
     images:[`K9146TB_1.jpg`,`K9146TB_2.jpg`,`K9146TB_3.jpg`,`K9146TB_4.jpg`,`K9146TB_5.jpg`,`K9146TB_6.jpg`,`K9146TB_7.jpg`,`K9146TB_8.jpg`,`K9146TB_9.jpg`,`K9146TB_10.jpg`,`K9146TB_11.jpg`],
@@ -58,8 +64,10 @@ const zlewy = [
     EAN:`5904806581778`
   },
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA CHROM POŁYSK  Z PÓŁKĄ - 55 x 50 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `CHROM POŁYSK  Z PÓŁKĄ - 55 x 50 x 21 cm`,
     Symbol: `K9146TP`,
     mainUrl: `/ZLEWY/K9146TP/K9146TP_1.jpg`,
     images:[`K9146TP_1.jpg`,`K9146TP_2.jpg`,`K9146TP_3.jpg`,`K9146TP_4.jpg`,`K9146TP_5.jpg`,`K9146TP_6.jpg`,`K9146TP_7.jpg`,`K9146TP_8.jpg`,`K9146TP_9.jpg`,`K9146TP_10.jpg`,`K9146TP_11.jpg`],
@@ -77,8 +85,10 @@ const zlewy = [
     EAN:`5904806581785`
   },
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA - 45 x 45 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `SATYNOWA MATOWA - 45 x 45 x 21 cm`,
     Symbol: `K9155TB`,
     mainUrl: `/ZLEWY/K9155TB/K9155TB_1.jpg`,
     images:[`K9155TB_1.jpg`,`K9155TB_2.jpg`,`K9155TB_3.jpg`,`K9155TB_4.jpg`,`K9155TB_5.jpg`,`K9155TB_6.jpg`,`K9155TB_7.jpg`,`K9155TB_8.jpg`,`K9155TB_9.jpg`],
@@ -94,8 +104,10 @@ const zlewy = [
     EAN:`5904806581792`
   },
   {
-    nazwa:
-      `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA Z PÓŁKĄ - 45 x 50 x 21 cm`,
+    nazwa1:
+      `ZLEW / KOMORA GOSPODARCZA`,
+      nazwa2:
+      `SATYNOWA MATOWA Z PÓŁKĄ - 45 x 50 x 21 cm`,
     Symbol: `K9156TB`,
     mainUrl: `/ZLEWY/K9156TB/K9156TB_1.jpg`,
     images:[`K9156TB_1.jpg`,`K9156TB_2.jpg`,`K9156TB_3.jpg`,`K9156TB_4.jpg`,`K9156TB_5.jpg`,`K9156TB_6.jpg`,`K9156TB_7.jpg`,`K9156TB_8.jpg`,`K9156TB_9.jpg`,`K9156TB_10.jpg`,`K9156TB_11.jpg`],
@@ -122,7 +134,8 @@ function Lista_zlewow() {
 <Link className="m-2" href={`/Armatura_sanitarna/Zlewy/${item.Symbol}`} key={item.Symbol}>
           <div  className="border m-2 flex flex-col items-center justify-center">
             <Image priority src={item.mainUrl} width={200} height={200} alt={item.Symbol}/>
-            <h3>{item.nazwa}</h3>
+            <h3>{item.nazwa1}</h3>
+            <h3>{item.nazwa2}</h3>
           </div>
           </Link>
           ))}

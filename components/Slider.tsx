@@ -22,7 +22,7 @@ function Slider() {
   useEffect(() => {
     setTimeout(() => {
       setCurrentIndex(currentIndex === slidesLength - 1 ? 0 : currentIndex + 1);
-    }, 6000);
+    }, 4000);
   });
   return (
     <div className="w-full flex justify-center items-center relative select-none">

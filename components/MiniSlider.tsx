@@ -28,7 +28,7 @@ function MiniSlider() {
       </div>
       <div className="px-1 opacity-90 hover:opacity-100 hover:scale-105 transition-all relative">
       <div className="miniSliderText text-sm md:text-lg opacity-80 hover:opacity-100 text-center bg-white text-black  rounded-md flex items-center justify-center hover:bg-aquaBlue hover:text-white transition-all">
-            <Link href="/Akcesoria" className=" text-md font-semibold p-2  ">AKCESORIA</Link>
+            <Link href="/Lista_Akcesoriow" className=" text-md font-semibold p-2  ">AKCESORIA</Link>
           </div>
         <Image src={image4} width={2000} alt="Akcesoria"></Image>
       </div>

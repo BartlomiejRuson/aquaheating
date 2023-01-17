@@ -6,159 +6,65 @@ function Do_Pobrania() {
     <div>
       <Nav />
       <div className="flex gap-2 p-3">
-        <h1 className="font-semibold text-lg">Katalog wszystkich odpływów:</h1>
-        <a className="transition-all hover:text-aquaBlue font-semibold"href="/AQUAHEATING_Katalog_AH-7OL21_flat.pdf" download>
-          POBIERZ
+        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="/AQUAHEATING_Katalog_AH-7OL21_flat.pdf"
+          target='_blank'
+        >
+          KATALOG - <span className="italic">Odpływy prysznicowe</span> 
         </a>
       </div>
-      <h1 className="p-3 text-lg font-semibold">Katalogi poszczególnych odpływów: </h1>
-      <div className="grid grid-cols-3 md:grid-cols-5 p-3 gap-3 text-center">
-
-        <div className="border rounded-md">
-          {" "}
-          <h1>A01</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A01.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A01BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A01BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          <h1>A02</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A02.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A02BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A02BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          <h1>A03</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A03.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A03BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A03BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A04</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A04.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A04BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A04BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>A04GL</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_A04GL.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>FSK01</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_FSK01.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>FSK01BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_FSK01BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>FSK01GL</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_FSK01GL.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>G10BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_G10BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>G12BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_G12BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>P04</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_P04.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>P04BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_P04BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>R04</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_R04.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>R04BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_R04BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>W04</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_W04.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>W04BK</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_W04BK.pdf" download>
-            POBIERZ
-          </a>
-        </div>
-        <div className="border rounded-md">
-          {" "}
-          <h1>W04GL</h1>
-          <a className="transition-all hover:text-aquaBlue font-semibold"href="/KARTY_Katalogowe/ODPLYWY/KK_W04GL.pdf" download>
-            POBIERZ
-          </a>
-        </div>
+      <h1 className="p-3 text-lg font-semibold">
+        KARTY KATALOGOWE:
+      </h1>
+      <div>
+        <ul className="list-disc pl-10">
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Podłogowe - 2w1</a></li>
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Podłogowe - WZORY</a></li>
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Podłogowe - SZKLANE</a></li>
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Podłogowe - SLIM / WĄSKIE</a></li>
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Podłogowe - KWADRATOWE</a></li>
+          <li className="p-1 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="#"
+          target='_blank'
+        >ODPŁYWY Ścienne - 2w1</a></li>
+          <li className="my-5 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="/KOMORY_Razem.pdf"
+          target='_blank'
+        >ZLEWY / KOMORY GOSPODARCZE</a></li>
+          <li className="my-5 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="/GRZEWKA_Razem.pdf"
+          target='_blank'
+        >TECHNIKA Grzewcza / Sanitarna</a></li>
+          <li className="mt-5 pb-5 italic">        <a
+          className="transition-all font-semibold text-lg hover:text-aquaBlue"
+          href="/AKCESORIA_Razem.pdf"
+          target='_blank'
+        >AKCESORIA</a></li>
+        </ul>
       </div>
       <Footer />
     </div>
