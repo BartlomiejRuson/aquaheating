@@ -4,6 +4,41 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 const listaAkcesoriow = [
+  {
+    nazwa1:`SYFON z REWIZJĄ`,
+    nazwa2:`SZARY / CZARNY`,
+    mainUrl:`/AKCESORIA/SYFONY_Rewizja.jpg`,
+    images:[`/AKCESORIA/TR1_R/SRP_1.jpg`,`/AKCESORIA/TR1_R/SRP_1A.jpg`,`/AKCESORIA/TR1_R/SRP_1B.jpg`,`/AKCESORIA/TR1_R/SRP_2.jpg`,`/AKCESORIA/TR1_R/SRP_3.jpg`,`/AKCESORIA/TR1_R/SRP_4.jpg`,`/AKCESORIA/TR1_R/SRP_5.jpg`,`/AKCESORIA/TR1_R/SRP_6.jpg`,],
+    opis1:`UNIWERSALNY - zastosowanie do większości odpływów dostępnych na rynku
+    -  do odpływów podłogowych
+    -  do odpływów ściennych / bocznych`,
+    opis2:`Nieprzyjemne zapachy zatrzymywane są przez spiętrzony poziom wody w syfonie co zapobiega przedostawaniu się nieprzyjemnych zapachów.
+    Sitko/kratka z podłużnymi przegrodami. Zatrzymuje nieczystości, a jednocześnie zapewnia doskonały przepływ wody.`,
+    opis3:`materiał - tworzywo sztuczne (polipropylen)
+    - uszczelnienie - dwuwargowa uszczelka (NBR zapewniająca lepszą szczelność
+    `,
+    opis4:`otwierana górna pokrywa - łatwość czyszczenia
+    - uszczelka dwuwargowa - podwójna szczelność połączenia`,
+    Symbol:`TR1_R`
+  },
+    {
+      nazwa1:`SYFON KULKOWY `,
+      nazwa2:`SZARY / CZARNY`,
+      mainUrl:`/AKCESORIA/SYFONY_Kulka.jpg`,
+      images:[`/AKCESORIA/TR2_K/TR2G_1A2.jpg`,`/AKCESORIA/TR2_K/TR2G_1B.jpg`,`/AKCESORIA/TR2_K/TR2G_1C.jpg`,`/AKCESORIA/TR2_K/TR2G_2A.jpg`,`/AKCESORIA/TR2_K/TR2G_3A.jpg`,`/AKCESORIA/TR2_K/TR2G_4A.jpg`,`/AKCESORIA/TR2_K/TR2G_5A.jpg`,`/AKCESORIA/TR2_K/TR2G_5B.jpg`,`/AKCESORIA/TR2_K/TR2G_6B.jpg`,],
+      opis1:`UNIWERSALNY - zastosowanie do większości odpływów dostępnych na rynku
+      -  do odpływów podłogowych
+      -  do odpływów ściennych / bocznych`,
+      opis2:`Nieprzyjemne zapachy zatrzymywane są przez spiętrzony poziom wody w syfonie lub kiedy woda wyschnie w syfonie opadają wewnętrzne kulki zapobiegając przedostawaniu się nieprzyjemnych zapachów.
+      Sitko/kratka z podłużnymi przegrodami. Zatrzymuje nieczystości, a jednocześnie zapewnia doskonały przepływ wody.`,
+      opis3:`- materiał - tworzywo sztuczne (polipropylen)
+      - uszczelnienie - dwuwargowa uszczelka (NBR zapewniająca lepszą szczelność
+      `,
+      opis4:`- otwierana górna pokrywa - łatwość czyszczenia
+      - uszczelka dwuwargowa - podwójna szczelność połączenia
+      - syfon - mokro / suchy`,
+      Symbol:`TR2_K`
+    },
     {
       nazwa1:`WSPORNIKI / DYSTANSE`,
       nazwa2:`DO RUSZTÓW / MASKOWNIC ODPŁYWÓW`,
@@ -48,41 +83,7 @@ const listaAkcesoriow = [
       opis5:`maksymalna wysokość: 54 mm`,
       Symbol:`NOZKI`
     },
-    {
-      nazwa1:`SYFON z REWIZJĄ`,
-      nazwa2:`SZARY / CZARNY`,
-      mainUrl:`/AKCESORIA/SYFONY_Rewizja.jpg`,
-      images:[`/AKCESORIA/TR1_R/SRP_1.jpg`,`/AKCESORIA/TR1_R/SRP_1A.jpg`,`/AKCESORIA/TR1_R/SRP_1B.jpg`,`/AKCESORIA/TR1_R/SRP_2.jpg`,`/AKCESORIA/TR1_R/SRP_3.jpg`,`/AKCESORIA/TR1_R/SRP_4.jpg`,`/AKCESORIA/TR1_R/SRP_5.jpg`,`/AKCESORIA/TR1_R/SRP_6.jpg`,],
-      opis1:`UNIWERSALNY - zastosowanie do większości odpływów dostępnych na rynku
-      -  do odpływów podłogowych
-      -  do odpływów ściennych / bocznych`,
-      opis2:`Nieprzyjemne zapachy zatrzymywane są przez spiętrzony poziom wody w syfonie co zapobiega przedostawaniu się nieprzyjemnych zapachów.
-      Sitko/kratka z podłużnymi przegrodami. Zatrzymuje nieczystości, a jednocześnie zapewnia doskonały przepływ wody.`,
-      opis3:`materiał - tworzywo sztuczne (polipropylen)
-      - uszczelnienie - dwuwargowa uszczelka (NBR zapewniająca lepszą szczelność
-      `,
-      opis4:`otwierana górna pokrywa - łatwość czyszczenia
-      - uszczelka dwuwargowa - podwójna szczelność połączenia`,
-      Symbol:`TR1_R`
-    },
-      {
-        nazwa1:`SYFON KULKOWY `,
-        nazwa2:`SZARY / CZARNY`,
-        mainUrl:`/AKCESORIA/SYFONY_Kulka.jpg`,
-        images:[`/AKCESORIA/TR2_K/TR2G_1A2.jpg`,`/AKCESORIA/TR2_K/TR2G_1B.jpg`,`/AKCESORIA/TR2_K/TR2G_1C.jpg`,`/AKCESORIA/TR2_K/TR2G_2A.jpg`,`/AKCESORIA/TR2_K/TR2G_3A.jpg`,`/AKCESORIA/TR2_K/TR2G_4A.jpg`,`/AKCESORIA/TR2_K/TR2G_5A.jpg`,`/AKCESORIA/TR2_K/TR2G_5B.jpg`,`/AKCESORIA/TR2_K/TR2G_6B.jpg`,],
-        opis1:`UNIWERSALNY - zastosowanie do większości odpływów dostępnych na rynku
-        -  do odpływów podłogowych
-        -  do odpływów ściennych / bocznych`,
-        opis2:`Nieprzyjemne zapachy zatrzymywane są przez spiętrzony poziom wody w syfonie lub kiedy woda wyschnie w syfonie opadają wewnętrzne kulki zapobiegając przedostawaniu się nieprzyjemnych zapachów.
-        Sitko/kratka z podłużnymi przegrodami. Zatrzymuje nieczystości, a jednocześnie zapewnia doskonały przepływ wody.`,
-        opis3:`- materiał - tworzywo sztuczne (polipropylen)
-        - uszczelnienie - dwuwargowa uszczelka (NBR zapewniająca lepszą szczelność
-        `,
-        opis4:`- otwierana górna pokrywa - łatwość czyszczenia
-        - uszczelka dwuwargowa - podwójna szczelność połączenia
-        - syfon - mokro / suchy`,
-        Symbol:`TR2_K`
-      }
+
     
 
   ]

@@ -255,6 +255,23 @@ const odplywy = [
     Symbol: `A04GL`,
   },
   {
+    nazwa:`WZÓR - 2w1 - pod płytkę
+    MIEDZIANY Matowy`,
+    mainUrl:"/ODPLYWY/A04CU/A04CU_1.jpg",
+    images:["A04CU_1.jpg","A04CU_2.jpg","A04CU_20.jpg"],
+    opis1: `Dwustronny ruszt`,
+    opis2:`Koryto odpływowe oraz ruszt (maskownica) wykonane ze stali nierdzewnej (AISI 304)
+    Niski montaż  tylko 54 mm`,
+    opis3:`Odpływy Ø40 lub Ø50 mm`,
+    opis4:`Przepływ - aż 0,6 l/s`,
+    opis5:`Mata uszczelniająca ze specjalnej flizeliny hydroizolacyjnej szczelność - 1,5 bar`,
+    opis6:`Szerokie nóżki ułatwiające poziomowanie`,
+    opis7:`Syfon z osadnikiem zanieczyszczeń`,
+    opis8:`Łatwość czyszczenia - od góry`,
+    opis9:`Dostępne długości - 60, 70, 80, 90, 100 cm`,
+    Symbol:`A04CU`
+  },
+  {
     nazwa: `Odpływ liniowy 
     prysznicowy / podłogowy
     WZÓR - SLIM Kwadrat

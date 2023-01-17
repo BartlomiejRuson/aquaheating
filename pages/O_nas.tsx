@@ -18,7 +18,7 @@ Dbamy o to by proponowane przez nas produkty były jak najwyższej jakości, mak
         </section>
         <div className="flex w-4/5 mx-auto ">
 
-        <Link href="/Products" className="text-center aboutButton bg-aquaBlue text-white font-semibold p-3  transition-all text-xl">SPRAWDŹ NASZĄ OFERTĘ</Link>
+        <Link href="/Produkty" className="text-center aboutButton bg-aquaBlue text-white font-semibold p-3  transition-all text-xl">SPRAWDŹ NASZĄ OFERTĘ</Link>
         </div>
         <Footer></Footer>
       </div>

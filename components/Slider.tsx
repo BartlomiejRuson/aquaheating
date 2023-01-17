@@ -10,7 +10,7 @@ const image3 = require("../images/Baner_4A.JPG");
 function Slider() {
   const slides = [image1, image0,image2,image3];
   const titles = ["ODPŁYWY","ODPŁYWY","ZLEWY / KOMORY","ARMATURA"];
-  const links = ["/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Zlewy","/Products"];
+  const links = ["/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Zlewy","/Technika_grzewcza_sanitarna"];
   const slidesLength = slides.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {

@@ -14,9 +14,9 @@ function Footer() {
           <p>32-020 Wieliczka</p>
         </div>
         <div>
-        <p>www.aquaheating .pl</p>
-          <p>biuro @aquaheating</p>
-          <a href="#">+48 xxx xxx xxx</a>
+        <p>www.aquaheating.pl</p>
+          <p>biuro@aquaheating</p>
+          <a href="#">+48 502 229 739</a>
         </div>
       </div>
     </footer>
