@@ -11,19 +11,24 @@ function Slider() {
   const slides = [image1, image0,image2,image3];
   const titles = ["ODPŁYWY","ODPŁYWY","ZLEWY / KOMORY","ARMATURA"];
   const links = ["/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Odplywy","/Armatura_sanitarna/Zlewy","/Technika_grzewcza_sanitarna"];
-  const slidesLength = slides.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
-    setCurrentIndex(currentIndex === 0 ? slidesLength - 1 : currentIndex - 1);
+    setCurrentIndex(currentIndex === 0 ? 3 : currentIndex - 1);
+
+    console.log(currentIndex);
   };
   const nextSlide = () => {
-    setCurrentIndex(currentIndex === slidesLength - 1 ? 0 : currentIndex + 1);
+    setCurrentIndex(currentIndex === 3 ? 0 : currentIndex + 1);
+
+    console.log(currentIndex);
   };
   useEffect(() => {
-    setTimeout(() => {
-      setCurrentIndex(currentIndex === slidesLength - 1 ? 0 : currentIndex + 1);
-    }, 4000);
-  });
+    const timer = setTimeout(() => nextSlide() , 4000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  },[currentIndex]);
   return (
     <div className="w-full flex justify-center items-center relative select-none">
       <FaArrowAltCircleLeft

@@ -40,12 +40,14 @@ function Contact() {
                 <div className="flex justify-center items-center">
                   <input
                     placeholder="Twój email"
+                    name="email"
                     type="email"
                     className="w-full border border-gray-500 px-4 py-2 focus:outline-none focus:border-aquaBlue"
                   />
                 </div>
                 <textarea
                   placeholder="Treść wiadomości"
+                  name="message"
                   className="w-full border border-gray-500 px-4 py-2 focus:outline-none focus:border-aquaBlue"
                   cols={10}
                   rows={5}
