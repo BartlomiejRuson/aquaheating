@@ -694,9 +694,10 @@ function Odplyw() {
                 </div>
                 <div className="grid grid-rows-2 grid-cols-5 gap-2">
                   {item.images.map((img, index) => {
-                    
+                 
                     return (
-                      <div className="miniProductImageContainer">
+                  
+                  <div className="miniProductImageContainer">
                       <Image
                         className="border cursor-pointer"
                         key={index}
@@ -713,6 +714,7 @@ function Odplyw() {
 
                     );
                   })}
+             
                 </div>
               </div>
               <div className="flex font-semibold text-lg justify-center items-center">

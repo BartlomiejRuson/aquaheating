@@ -91,14 +91,14 @@ function Lista_Akcesoriow() {
   return (
     <div>
 <Nav/>
-<div className='grid md:grid-cols-6 grid-cols-2 text-center p-5'>
+<div className='grid md:grid-cols-3 grid-cols-2 text-center p-5'>
         {listaAkcesoriow.map(item=>(
-<Link className="m-5" href={`/Akcesoria/${item.Symbol}`} key={item.Symbol}>
+<Link className="m-5 md:hover:scale-105 md:transition-all" href={`/Akcesoria/${item.Symbol}`} key={item.Symbol}>
           <div  className="border m-2 flex flex-col items-center justify-center">
             <Image priority src={item.mainUrl} width={200} height={200} alt={item.Symbol}/>
-<div className='h-20 flex flex-col justify-around'>
-<h3>{item.nazwa1}</h3>
-<h3>{item.nazwa2}</h3>
+<div className=' flex flex-col justify-around'>
+<h3 className='sm:text-base md:text-lg'>{item.nazwa1}</h3>
+<h3 className='sm:text-sm md:text-lg pb-2'>{item.nazwa2}</h3>
 </div>
 
           </div>

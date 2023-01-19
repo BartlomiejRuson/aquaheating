@@ -11,7 +11,7 @@ function Contact() {
           <div className="flex gap-1 flex-col items-center justify-center">
             <p className="pb-1">AQUA HEATING</p>
             <p className="py-1">SUŁÓW 198A</p>
-            <p className="py-1">502 229 739</p>
+            <p className="py-1">xxx xxx xxx</p>
             <p className="py-1">32-020 Wieliczka</p>
             <a
               href="#"

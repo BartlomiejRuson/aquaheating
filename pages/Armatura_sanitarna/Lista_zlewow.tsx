@@ -131,7 +131,7 @@ function Lista_zlewow() {
       <Nav />
       <div className='grid md:grid-cols-3 grid-cols-2 text-center p-5'>
         {zlewy.map(item=>(
-<Link className="m-2" href={`/Armatura_sanitarna/Zlewy/${item.Symbol}`} key={item.Symbol}>
+<Link className="m-2 md:hover:scale-105 md:transition-all" href={`/Armatura_sanitarna/Zlewy/${item.Symbol}`} key={item.Symbol}>
           <div  className="border m-2 flex flex-col items-center justify-center">
             <Image priority src={item.mainUrl} width={200} height={200} alt={item.Symbol}/>
             <h3>{item.nazwa1}</h3>

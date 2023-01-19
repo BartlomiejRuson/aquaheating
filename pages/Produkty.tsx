@@ -72,7 +72,7 @@ function Products() {
           <div className="flex text-center justify-around items-center">
             <div className="">
               <Link
-                href="/Akcesoria"
+                href="/Lista_Akcesoriow"
                 className="text-center aboutButton bg-aquaBlue text-white font-semibold p-3 mx-auto transition-all text-xl"
               >
                 SPRAWDŹ

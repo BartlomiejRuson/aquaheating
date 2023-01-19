@@ -395,12 +395,12 @@ function Lista_odplywow() {
   return (
     <div>
         <Nav/>
-        <div className='grid md:grid-cols-6 grid-cols-3 text-center p-5'>
+        <div className='grid md:grid-cols-6 grid-cols-2 sm:grid-cols-3 text-center p-5'>
         {odplywy.map(item=>(
-<Link href={`/Armatura_sanitarna/Odplywy/${item.Symbol}`} key={item.Symbol}>
+<Link className='md:hover:scale-105 md:transition-all' href={`/Armatura_sanitarna/Odplywy/${item.Symbol}`} key={item.Symbol}>
           <div  className="border m-2 flex flex-col items-center">
             <Image priority src={item.mainUrl} width={200} height={130} alt={item.Symbol}/>
-            <div className='h-20 flex flex-col justify-center'>
+            <div className='md:h-20 flex flex-col justify-center'>
             <h3>{item.nazwa1?item.nazwa1:item.nazwa}</h3>
             <h3>{item.nazwa2?item.nazwa2:""}</h3>
             </div>

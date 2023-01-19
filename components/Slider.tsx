@@ -14,13 +14,10 @@ function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
     setCurrentIndex(currentIndex === 0 ? 3 : currentIndex - 1);
-
-    console.log(currentIndex);
   };
   const nextSlide = () => {
     setCurrentIndex(currentIndex === 3 ? 0 : currentIndex + 1);
 
-    console.log(currentIndex);
   };
   useEffect(() => {
     const timer = setTimeout(() => nextSlide() , 4000);

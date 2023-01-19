@@ -217,10 +217,10 @@ function Lista_technika_grzewcza() {
   return (
     <div>
       <Nav />
-      <div className="grid md:grid-cols-4 grid-cols-2 text-center p-5">
+      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 text-center p-5">
         {grzewka.map((item) => (
           <Link
-            className="m-5"
+            className="m-5 md:hover:scale-105 md:transition-all"
             href={`/Grzewka/${item.Symbol}`}
             key={item.Symbol}
           >
@@ -232,7 +232,7 @@ function Lista_technika_grzewcza() {
                 height={200}
                 alt={item.Symbol}
               />
-                          <div className='h-32 flex flex-col justify-center'>
+                          <div className='md:h-32 flex flex-col justify-center'>
                           <h3>{item.nazwa1 ? item.nazwa1 : ""}</h3>
               <h3>{item.nazwa2 ? item.nazwa2 : ""}</h3>
               <h3>{item.nazwa3 ? item.nazwa3 : ""}</h3>
