@@ -719,7 +719,7 @@ function Odplyw() {
               </div>
               <div className="flex font-semibold text-lg justify-center items-center">
                 <div>
-                  <h1 className=" text-3xl py-5">- {item.nazwa}</h1>
+                  <h1 className=" text-3xl py-5">{item.nazwa}</h1>
                   {item.opis1 ? <p>{item.opis1}</p> : null}
                   {item.opis2 ? <p>{item.opis2}</p> : null}
                   {item.opis3 ? <p>{item.opis3}</p> : null}

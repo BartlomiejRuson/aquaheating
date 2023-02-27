@@ -296,7 +296,7 @@ function Grzewka() {
               <div className="flex font-semibold text-lg justify-center items-center">
                 <div>
                   <h1 className=" text-3xl py-5">
-                    - {item.nazwa1 ? item.nazwa1 : item.nazwa} <br></br>{" "}
+                    {item.nazwa1 ? item.nazwa1 : item.nazwa} <br></br>{" "}
                     {item.nazwa2 ? item.nazwa2 : ""} <br></br>{" "}
                     {item.nazwa3 ? item.nazwa3 : ""}
                   </h1>

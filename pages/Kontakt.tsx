@@ -6,9 +6,9 @@ function Contact() {
   return (
     <div>
       <Nav />
-      <div className="grid grid-cols-1 md:grid-cols-2 text-center text-2xl font-semibold ">
-        <div className="flex my-10 justify-around items-center flex-col">
-          <div className="flex gap-1 flex-col items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3  text-2xl font-semibold ">
+        <div className="my-10 text-3xl flex items-center">
+          <div className="flex gap-1 flex-col pl-5">
             <p className="pb-1">AQUA HEATING</p>
             <p className="py-1">SUŁÓW 198A</p>
             <p className="py-1">xxx xxx xxx</p>
@@ -22,8 +22,8 @@ function Contact() {
           </div>
         </div>
 
-        <div>
-          <div className="p-5 space-y-5 ">
+        <div className="col-span-2">
+          <div className="p-5 space-y-5 text-center">
             <form>
               <div className="flex gap-5 flex-col justify-around">
                 <div className="flex">
