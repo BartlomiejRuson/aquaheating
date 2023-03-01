@@ -11,7 +11,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA`,
       Symbol: `K9145TB`,
       mainUrl: `/ZLEWY/K9145TB/K9145TB_1.jpg`,
-      images:[`K9145TB_1.jpg`,`K9145TB_2.jpg`,`K9145TB_3.jpg`,`K9145TB_4.jpg`,`K9145TB_5.jpg`,`K9145TB_6.jpg`,`K9145TB_7.jpg`,`K9145TB_8.jpg`,`K9145TB_9.jpg`],
+      images:[`K9145TB_X.jpg`,`K9145TB_2.jpg`,`K9145TB_3.jpg`,`K9145TB_4.jpg`,`K9145TB_5.jpg`,`K9145TB_6.jpg`,`K9145TB_7.jpg`,`K9145TB_8.jpg`,`K9145TB_9.jpg`],
       wymiaryUrl:`K9145TB_Size_1.jpg`,
       aranzacjaUrl:`K9145TB_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna satynowa/szczotkowana/czesana bardzo łatwy w utrzymaniu czystości`,
@@ -27,7 +27,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA CHROM POŁYSK`,
       Symbol: `K9145TP`,
       mainUrl: `/ZLEWY/K9145TP/K9145TP_1.jpg`,
-      images:[`K9145TP_1.jpg`,`K9145TP_2.jpg`,`K9145TP_3.jpg`,`K9145TP_4.jpg`,`K9145TP_5.jpg`,`K9145TP_6.jpg`,`K9145TP_7.jpg`,`K9145TP_8.jpg`,`K9145TP_9.jpg`],
+      images:[`K9145TP_X.jpg`,`K9145TP_2.jpg`,`K9145TP_3.jpg`,`K9145TP_4.jpg`,`K9145TP_5.jpg`,`K9145TP_6.jpg`,`K9145TP_7.jpg`,`K9145TP_8.jpg`,`K9145TP_9.jpg`],
       wymiaryUrl:`K9145TP_Size_1.jpg`,
       aranzacjaUrl:`K9145TP_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna 
@@ -44,7 +44,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA Z PÓŁKĄ`,
       Symbol: `K9146TB`,
       mainUrl: `/ZLEWY/K9146TB/K9146TB_1.jpg`,
-      images:[`K9146TB_1.jpg`,`K9146TB_2.jpg`,`K9146TB_3.jpg`,`K9146TB_4.jpg`,`K9146TB_5.jpg`,`K9146TB_6.jpg`,`K9146TB_7.jpg`,`K9146TB_8.jpg`,`K9146TB_9.jpg`,`K9146TB_10.jpg`,`K9146TB_11.jpg`],
+      images:[`K9146TB_X.jpg`,`K9146TB_2.jpg`,`K9146TB_3.jpg`,`K9146TB_4.jpg`,`K9146TB_5.jpg`,`K9146TB_6.jpg`,`K9146TB_7.jpg`,`K9146TB_8.jpg`,`K9146TB_9.jpg`,`K9146TB_10.jpg`,`K9146TB_11.jpg`],
       wymiaryUrl:`K9146TB_Size_1.jpg`,
       aranzacjaUrl:`K9146TB_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna 
@@ -63,7 +63,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA CHROM POŁYSK  Z PÓŁKĄ`,
       Symbol: `K9146TP`,
       mainUrl: `/ZLEWY/K9146TP/K9146TP_1.jpg`,
-      images:[`K9146TP_1.jpg`,`K9146TP_2.jpg`,`K9146TP_3.jpg`,`K9146TP_4.jpg`,`K9146TP_5.jpg`,`K9146TP_6.jpg`,`K9146TP_7.jpg`,`K9146TP_8.jpg`,`K9146TP_9.jpg`,`K9146TP_10.jpg`,`K9146TP_11.jpg`],
+      images:[`K9146TP_X.jpg`,`K9146TP_2.jpg`,`K9146TP_3.jpg`,`K9146TP_4.jpg`,`K9146TP_5.jpg`,`K9146TP_6.jpg`,`K9146TP_7.jpg`,`K9146TP_8.jpg`,`K9146TP_9.jpg`,`K9146TP_10.jpg`,`K9146TP_11.jpg`],
       wymiaryUrl:`K9146TP_Size_1.jpg`,
       aranzacjaUrl:`K9146TP_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna 
@@ -82,7 +82,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA`,
       Symbol: `K9155TB`,
       mainUrl: `/ZLEWY/K9155TB/K9155TB_1.jpg`,
-      images:[`K9155TB_1.jpg`,`K9155TB_2.jpg`,`K9155TB_3.jpg`,`K9155TB_4.jpg`,`K9155TB_5.jpg`,`K9155TB_6.jpg`,`K9155TB_7.jpg`,`K9155TB_8.jpg`,`K9155TB_9.jpg`],
+      images:[`K9155TB_X.jpg`,`K9155TB_2.jpg`,`K9155TB_3.jpg`,`K9155TB_4.jpg`,`K9155TB_5.jpg`,`K9155TB_6.jpg`,`K9155TB_7.jpg`,`K9155TB_8.jpg`,`K9155TB_9.jpg`],
       wymiaryUrl:`K9155TB_Size_1.jpg`,
       aranzacjaUrl:`K9155TB_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna 
@@ -99,7 +99,7 @@ const zlewy = [
         `ZLEW / KOMORA GOSPODARCZA SATYNOWA MATOWA Z PÓŁKĄ`,
       Symbol: `K9156TB`,
       mainUrl: `/ZLEWY/K9156TB/K9156TB_1.jpg`,
-      images:[`K9156TB_1.jpg`,`K9156TB_2.jpg`,`K9156TB_3.jpg`,`K9156TB_4.jpg`,`K9156TB_5.jpg`,`K9156TB_6.jpg`,`K9156TB_7.jpg`,`K9156TB_8.jpg`,`K9156TB_9.jpg`,`K9156TB_10.jpg`,`K9156TB_11.jpg`],
+      images:[`K9156TB_X.jpg`,`K9156TB_2.jpg`,`K9156TB_3.jpg`,`K9156TB_4.jpg`,`K9156TB_5.jpg`,`K9156TB_6.jpg`,`K9156TB_7.jpg`,`K9156TB_8.jpg`,`K9156TB_9.jpg`,`K9156TB_10.jpg`,`K9156TB_11.jpg`],
       wymiaryUrl:`K9156TB_Size_1.jpg`,
       aranzacjaUrl:`K9156TB_Aranz.jpg`,
       opis1:`materiał - stal nierdzewna 
@@ -159,7 +159,7 @@ function Zlew() {
                 <img
                   ref={imgRef}
                   className="p-3"
-                  src={item.mainUrl}
+                  src={`/ZLEWY/${item.Symbol}/${item.images[0]}`}
                   width={500}
                   height={500}
                   alt={item.Symbol}

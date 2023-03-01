@@ -9,7 +9,7 @@ function Odplywy() {
     <div>
         <Nav/>
         <div className='grid grid-cols-1 md:grid-cols-3'>
-          <div className=' flex justify-start'><Image width={500} className="p-5" src={mainImg} alt="odplywwy"></Image></div>
+          <div className=' flex justify-start'><Image width={600} className="p-5" src={mainImg} alt="odplywwy"></Image></div>
           <div className='col-span-2 flex flex-col gap-6 justify-center '>
             <h1 className='text-lg'>Prysznic bez brodzika - z odpływami <b>AQUA HEATING</b></h1>
             <p>Odpływy prysznicowe podłogowe lub ścienne to rozwiązanie, które umożliwia stworzyć nowoczesny, wygodny w użytkowaniu, niepowtarzalny, piękny wygląd prysznica.</p>

@@ -10,17 +10,17 @@ function About() {
       <Nav></Nav>
       <div className="pb-10">
         <hr />
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 2xl:mt-10">
           <div className="flex items-center justify-center">
-          <Image width={500} className='p-5'  src={oNasImg} alt='obraz o nas'></Image>
+          <Image width={700} className='p-5'  src={oNasImg} alt='obraz o nas'></Image>
             
           </div>
           <div className="col-span-2">
-          <h1 className="mx-auto my-10 text-center font-semibold text-4xl">
+          <h1 className="mx-auto my-10 text-center font-semibold text-4xl 2xl:text-5xl">
             O NAS
           </h1>
           
-          <section className="w-4/5 mx-auto mb-10 text-lg">
+          <section className="w-5/6 mx-auto mb-10 text-lg ">
             Jesteśmy nową, polską marką specjalizującą się w dostarczaniu
             artykułów wyposażenia sanitarnego oraz grzewczego od sprawdzonych,
             doświadczonych światowych producentów. Dbamy o to by proponowane

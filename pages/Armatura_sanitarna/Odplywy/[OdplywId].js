@@ -13,7 +13,7 @@ const odplywy = [
         `,
     mainUrl: "/ODPLYWY/A01/A01_0.jpg",
     images: [
-      "A01_0.jpg",
+      "A01_X.jpg",
       "A01_2.jpg",
       "A01_3.jpg",
       "A01_4.jpg",
@@ -40,7 +40,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/A01BK/A01BK_0.jpg",
     images: [
-      "A01BK_0.jpg",
+      "A01BK_X.jpg",
       "A01BK_1.jpg",
       "A01BK_2.jpg",
       "A01BK_3.jpg",
@@ -67,7 +67,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/A02/A02_0.jpg",
     images: [
-      "A02_0.jpg",
+      "A02_X.jpg",
       "A02_1.jpg",
       "A02_2.jpg",
       "A02_3.jpg",
@@ -93,7 +93,7 @@ const odplywy = [
     CZARNY Matowy`,
     mainUrl: "/ODPLYWY/A02BK/A02BK_0.jpg",
     images: [
-      "A02BK_0.jpg",
+      "A02BK_X.jpg",
       "A02BK_1.jpg",
       "A02BK_2.jpg",
       "A02BK_3.jpg",
@@ -120,7 +120,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/A03/A03_0.jpg",
     images: [
-      "A03_0.jpg",
+      "A03_X.jpg",
       "A03_1.jpg",
       "A03_2.jpg",
       "A03_3.jpg",
@@ -146,7 +146,7 @@ const odplywy = [
     CZARNY Matowy`,
     mainUrl: "/ODPLYWY/A03BK/A03BK_0.jpg",
     images: [
-      "A03BK_0.jpg",
+      "A03BK_X.jpg",
       "A03BK_1.jpg",
       "A03BK_2.jpg",
       "A03BK_3.jpg",
@@ -173,7 +173,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/A04/A04_0.jpg",
     images: [
-      "A04_0.jpg",
+      "A04_X.jpg",
       "A04_1.jpg",
       "A04_2.jpg",
       "A04_3.jpg",
@@ -203,7 +203,7 @@ const odplywy = [
     CZARNY Matowy`,
     mainUrl: "/ODPLYWY/A04BK/A04BK_0.jpg",
     images: [
-      "A04BK_0.jpg",
+      "A04BK_X.jpg",
       "A04BK_1.jpg",
       "A04BK_2.jpg",
       "A04BK_3.jpg",
@@ -233,7 +233,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/A04GL/A04GL_0.jpg",
     images: [
-      "A04GL_0.jpg",
+      "A04GL_X.jpg",
       "A04GL_1.jpg",
       "A04GL_2.jpg",
       "A04GL_3.jpg",
@@ -258,7 +258,7 @@ const odplywy = [
     nazwa:`WZÓR - 2w1 - pod płytkę
     MIEDZIANY Matowy`,
     mainUrl:"/ODPLYWY/A04CU/A04CU_1.jpg",
-    images:["A04CU_1.jpg","A04CU_2.jpg","A04CU_20.jpg"],
+    images:["A04CU_X.jpg","A04CU_2.jpg","A04CU_20.jpg"],
     opis1: `Dwustronny ruszt`,
     opis2:`Koryto odpływowe oraz ruszt (maskownica) wykonane ze stali nierdzewnej (AISI 304)
     Niski montaż  tylko 54 mm`,
@@ -279,7 +279,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/FSK01/FSK01_0.jpg",
     images: [
-      "FSK01_0.jpg",
+      "FSK01_X.jpg",
       "FSK01_1.jpg",
       "FSK01_3.jpg",
       "FSK01_4.jpg",
@@ -310,7 +310,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/FSK01BK/FSK01BK_0.jpg",
     images: [
-      "FSK01BK_0.jpg",
+      "FSK01BK_X.jpg",
       "FSK01BK_1.jpg",
       "FSK01BK_3.jpg",
       "FSK01BK_4.jpg",
@@ -341,7 +341,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/FSK01GL/FSK01GL_0A.jpg",
     images: [
-      "FSK01GL_0A.jpg",
+      "FSK01GL_X.jpg",
       "FSK01GL_1A.jpg",
       "FSK01GL_3.jpg",
       "FSK01GL_4.jpg",
@@ -371,7 +371,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/G10BK/G10BK_0.jpg",
     images: [
-      "G10BK_0.jpg",
+      "G10BK_X.jpg",
       "G10BK_1.jpg",
       "G10BK_2.jpg",
       "G10BK_3.jpg",
@@ -401,7 +401,7 @@ const odplywy = [
     SZKŁO Hartowane - CZARNE`,
     mainUrl: "/ODPLYWY/G12BK/G12BK_0.jpg",
     images: [
-      "G12BK_0.jpg",
+      "G12BK_X.jpg",
       "G12BK_1.jpg",
       "G12BK_2.jpg",
       "G12BK_3.jpg",
@@ -430,7 +430,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/P04/P04_0.jpg",
     images: [
-      "P04_0.jpg",
+      "P04_X.jpg",
       "P04_1.jpg",
       "P04_2.jpg",
       "P04_3.jpg",
@@ -458,7 +458,7 @@ const odplywy = [
     CZARNY Matowy`,
     mainUrl: "/ODPLYWY/P04BK/P04BK_0.jpg",
     images: [
-      "P04BK_0.jpg",
+      "P04BK_X.jpg",
       "P04BK_1.jpg",
       "P04BK_2.jpg",
       "P04BK_3.jpg",
@@ -486,7 +486,7 @@ const odplywy = [
     WZÓR - 2w1 - pod płytkę`,
     mainUrl: "/ODPLYWY/R04/R04_0.jpg",
     images: [
-      "R04_0.jpg",
+      "R04_X.jpg",
       "R04_1.jpg",
       "R04_2.jpg",
       "R04_3.jpg",
@@ -517,7 +517,7 @@ const odplywy = [
     WZÓR - 2w1 - pod płytkę CZARNY Matowy`,
     mainUrl: "/ODPLYWY/R04BK/R04BK_0.jpg",
     images: [
-      "R04BK_0.jpg",
+      "R04BK_X.jpg",
       "R04BK_1.jpg",
       "R04BK_2.jpg",
       "R04BK_3.jpg",
@@ -548,7 +548,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/W04/W04N_0.jpg",
     images: [
-      "W04N_0.jpg",
+      "W04N_X.jpg",
       "W04N_1.jpg",
       "W04N_1B.jpg",
       "W04N_2.jpg",
@@ -580,7 +580,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/W04BK/W04BK_N_0.jpg",
     images: [
-      "W04BK_N_0.jpg",
+      "W04BK_N_X.jpg",
       "W04BK_N_1.jpg",
       "W04BK_N_1B.jpg",
       "W04BK_N_2.jpg",
@@ -614,7 +614,7 @@ const odplywy = [
     `,
     mainUrl: "/ODPLYWY/W04GL/W04GL_0.jpg",
     images: [
-      "W04GL_0.jpg",
+      "W04GL_X.jpg",
       "W04GL_1.jpg",
       "W04GL_2.jpg",
       "W04GL_3.jpg",
@@ -655,7 +655,6 @@ function Odplyw() {
   imgRef.current.src=mainImgUrl;
 
   }, [mainImgUrl])
-  
   const obecnyOdplyw = odplywy.filter((odplyw) => {
     if (odplyw.Symbol == productId) {
       return odplyw;
@@ -685,7 +684,7 @@ function Odplyw() {
                 <img
                   ref={imgRef}
                   className="p-3"
-                  src={item.mainUrl}
+                  src={`/ODPLYWY/${item.Symbol}/${item.images[0]}`}
                   width={500}
                   height={500}
                   alt={item.Symbol}
