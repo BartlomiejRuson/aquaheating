@@ -10,7 +10,7 @@ function About() {
       <Nav></Nav>
       <div className="pb-10">
         <hr />
-        <div className="grid grid-cols-3 2xl:mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 2xl:mt-10">
           <div className="flex items-center justify-center">
           <Image width={700} className='p-5'  src={oNasImg} alt='obraz o nas'></Image>
             
