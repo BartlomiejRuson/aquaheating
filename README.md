@@ -1,6 +1,5 @@
 # AquaHeating company's website
 
-This project is ready to deploy, I am waiting for a green light from company owner.
 
 # Tech used:
  -JavaScript
