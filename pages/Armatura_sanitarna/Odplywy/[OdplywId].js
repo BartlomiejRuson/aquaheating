@@ -640,11 +640,11 @@ const odplywy = [
   },
 ];
 
-function Odplyw() {
+function Odplyw({post}) {
   const imgRef = useRef();
   const [mainImgUrl,setMainImgUrl] = useState("") ;
   const router = useRouter();
-  const productId = router.query.OdplywId;
+  const productId = post.id;
   const changeImage = (e,string) => {
     setMainImgUrl(string);
     
@@ -1375,9 +1375,15 @@ export const getStaticPaths = async () => {
     },
   ];
   const paths = odplywy.map(post => ({
-      params: { id: post.Symbol },
+      params: { OdplywId: post.Symbol },
   }));
   return { paths, fallback: false };
+};
+export const getStaticProps = async context => {
+  const postId = context.params?.OdplywId || '';
+  // Get post detail via API, file, etc.
+  const post = { id: postId }; // Example
+  return { props: { post } };
 };
 
 export default Odplyw;
