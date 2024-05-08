@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export":"npm run build && npm run export"
   },
   "dependencies": {
     "next": "latest",
